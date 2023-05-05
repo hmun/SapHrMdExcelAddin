@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SapHrMdExcelAddin", "SapHrMdExcelAddin\SapHrMdExcelAddin.vbproj", "{DD3D001B-6175-4846-83FA-2C2353E8D2E6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SAPCommon", "..\SAPCommon\SAPCommon.csproj", "{AE2ED1FA-015B-4073-9A0F-4805AA7BB480}"
+EndProject
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "SAPLogon", "..\SapLogon\SAPLogon.vbproj", "{A60529AD-AFF6-4169-81C0-DB8D8C0EA822}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD3D001B-6175-4846-83FA-2C2353E8D2E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD3D001B-6175-4846-83FA-2C2353E8D2E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD3D001B-6175-4846-83FA-2C2353E8D2E6}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DD3D001B-6175-4846-83FA-2C2353E8D2E6}.Debug|x64.Build.0 = Debug|Any CPU
+		{DD3D001B-6175-4846-83FA-2C2353E8D2E6}.Debug|x86.ActiveCfg = Debug|x86
+		{DD3D001B-6175-4846-83FA-2C2353E8D2E6}.Debug|x86.Build.0 = Debug|x86
+		{DD3D001B-6175-4846-83FA-2C2353E8D2E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD3D001B-6175-4846-83FA-2C2353E8D2E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD3D001B-6175-4846-83FA-2C2353E8D2E6}.Release|x64.ActiveCfg = Release|Any CPU
+		{DD3D001B-6175-4846-83FA-2C2353E8D2E6}.Release|x64.Build.0 = Release|Any CPU
+		{DD3D001B-6175-4846-83FA-2C2353E8D2E6}.Release|x86.ActiveCfg = Release|Any CPU
+		{DD3D001B-6175-4846-83FA-2C2353E8D2E6}.Release|x86.Build.0 = Release|Any CPU
+		{AE2ED1FA-015B-4073-9A0F-4805AA7BB480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE2ED1FA-015B-4073-9A0F-4805AA7BB480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE2ED1FA-015B-4073-9A0F-4805AA7BB480}.Debug|x64.ActiveCfg = Debug|x64
+		{AE2ED1FA-015B-4073-9A0F-4805AA7BB480}.Debug|x64.Build.0 = Debug|x64
+		{AE2ED1FA-015B-4073-9A0F-4805AA7BB480}.Debug|x86.ActiveCfg = Debug|x86
+		{AE2ED1FA-015B-4073-9A0F-4805AA7BB480}.Debug|x86.Build.0 = Debug|x86
+		{AE2ED1FA-015B-4073-9A0F-4805AA7BB480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE2ED1FA-015B-4073-9A0F-4805AA7BB480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE2ED1FA-015B-4073-9A0F-4805AA7BB480}.Release|x64.ActiveCfg = Release|x64
+		{AE2ED1FA-015B-4073-9A0F-4805AA7BB480}.Release|x64.Build.0 = Release|x64
+		{AE2ED1FA-015B-4073-9A0F-4805AA7BB480}.Release|x86.ActiveCfg = Release|x86
+		{AE2ED1FA-015B-4073-9A0F-4805AA7BB480}.Release|x86.Build.0 = Release|x86
+		{A60529AD-AFF6-4169-81C0-DB8D8C0EA822}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A60529AD-AFF6-4169-81C0-DB8D8C0EA822}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A60529AD-AFF6-4169-81C0-DB8D8C0EA822}.Debug|x64.ActiveCfg = Debug|x64
+		{A60529AD-AFF6-4169-81C0-DB8D8C0EA822}.Debug|x64.Build.0 = Debug|x64
+		{A60529AD-AFF6-4169-81C0-DB8D8C0EA822}.Debug|x86.ActiveCfg = Debug|x86
+		{A60529AD-AFF6-4169-81C0-DB8D8C0EA822}.Debug|x86.Build.0 = Debug|x86
+		{A60529AD-AFF6-4169-81C0-DB8D8C0EA822}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A60529AD-AFF6-4169-81C0-DB8D8C0EA822}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A60529AD-AFF6-4169-81C0-DB8D8C0EA822}.Release|x64.ActiveCfg = Release|x64
+		{A60529AD-AFF6-4169-81C0-DB8D8C0EA822}.Release|x64.Build.0 = Release|x64
+		{A60529AD-AFF6-4169-81C0-DB8D8C0EA822}.Release|x86.ActiveCfg = Release|x86
+		{A60529AD-AFF6-4169-81C0-DB8D8C0EA822}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4D9B684-43CE-4E5F-90F6-B701541B2E5E}
+	EndGlobalSection
+EndGlobal
